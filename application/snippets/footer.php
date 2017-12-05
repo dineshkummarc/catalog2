@@ -5,7 +5,7 @@
 						<a href="https://github.com/psztrnk/catalog2">code on github</a> &mdash;
 						<a href="https://github.com/psztrnk/catalog2/issues">report issues</a> &mdash;
 						<a href="https://github.com/psztrnk/catalog2/wiki">wiki</a> &mdash;
-						<a href="https://github.com/psztrnk/catalog2/blob/master/LICENSE">license</a>
+						<a href="https://github.com/psztrnk/catalog2/blob/master/LICENSE.md">license</a>
 					</p>
 				</footer>
 			</div>
