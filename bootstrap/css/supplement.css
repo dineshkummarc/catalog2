@@ -1,0 +1,175 @@
+/*
+	Custom styling
+	Overwrites Bootstrap styles
+*/
+
+/* LINKS */
+
+a {
+	color: #212529;
+	text-decoration: none;
+	border-bottom: 1px dotted #212529;
+}
+
+a:hover {
+	color: #212529;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+table a {
+	color: #212529;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+table a:hover {
+	color: #212529;
+	text-decoration: none;
+	border-bottom: 1px dotted #212529;
+}
+
+nav.navbar a {
+	border-bottom: none;
+}
+
+a.nextPage {
+	float: right;
+}
+
+a.nextPage,
+a.prevPage,
+a.nextPage:hover,
+a.prevPage:hover,
+a.download,
+a.download:hover {
+	border-bottom: none;
+}
+
+footer a {
+	border: 0 none;
+	color: #868e96;
+}
+
+/* STRUCTURE-RELATED */
+
+.row{
+  margin: 40px auto;
+}
+
+.row.search {
+	margin: -40px auto -20px auto !important;
+}
+
+.row.mobileOnly {
+	margin: 0;
+}
+
+.row.mobileOnly p {
+	margin: 0;
+}
+
+/* TYPOGRAPHY-RELATED */
+
+h3 {
+  font-weight: 600;
+  margin: auto auto 30px auto;
+}
+
+h6 {
+	margin: 30px 0;
+	font-size: 125%;
+	font-weight: 600;
+}
+
+footer {
+	font-size: 70%;
+	color: #868e96;
+}
+
+/* FORM-RELATED */
+
+form {
+  margin: 20px 0;
+}
+
+form.searchForm {
+  margin: 0;
+}
+
+form.bookAction {
+	float: left;
+	margin: 20px 20px 0 0;
+}
+
+form label span {
+	color: #868e96;
+	font-size: 80%;
+}
+
+form label span.custom-file-control {
+	font-size: 100%;
+}
+
+label.indented {
+	margin-left: 1px;
+}
+
+form input.cancel {
+	margin: auto auto auto 20px;
+}
+
+form.searchForm select.custom-select {
+  width: 100%;
+  border-radius: 0px 5px 5px 0px;
+}
+
+input.q-search,
+input.q-search:focus {
+	background: #343a40;
+	color: #fff;
+}
+
+span.as {
+	display: block;
+	padding-top: 7px;
+	font-weight: 300;
+}
+
+form.noMargin {
+	margin: 0;
+}
+
+.form-check label input {
+	margin-top: 6px;
+}
+
+/* BOOK VIEW */
+
+.card .card-header {
+	font-size: 80%;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.card img.card-img-top {
+	border-radius: 0;
+}
+
+p.recordsNum {
+	margin: 20px 0;
+}
+
+/* MOBILE V DESKTOP */
+
+@media screen and (max-width: 800px) {
+	.desktopOnly {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.mobileOnly {
+		display: none;
+	}
+}
