@@ -1,6 +1,6 @@
 **Catalog2 is available under the following MIT-style License:**
 
-Copyright (c) 2011-2017 Adam Paszternak
+Copyright (c) 2017 Adam Paszternak
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
