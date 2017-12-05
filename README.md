@@ -74,7 +74,7 @@ If you forgot your password, refer to the below process. Your data remains intac
 
 ## Third-party code
 
-For licensing information of the above third-party components please see `THIRDPARTY.md`.
+For licensing information of the third-party components please see `THIRDPARTY.md`.
 
 ## License
 
