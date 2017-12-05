@@ -219,7 +219,7 @@ function bookNew(&$bookNew) {
 		$locations[] = $locationName;
 	}
 	if (!in_array($locationData, $locations)) {
-		f::write($locationsFolder.'/'.$locationData.'.loc', '', $append = false);
+		f::write($locationsFolder.'/'.$locationData.'.loc', ' ', $append = false);
 	}
 
 	return $fileId;
@@ -664,6 +664,20 @@ function bookEdited(&$bookNew) {
 			}
 			$ebookFolder->remove($keep = FALSE);
 		}
+	}
+
+	// write location to .loc file (if not present)
+	$locationData = urlencode($_POST['location']);
+	$locationsFolder = new folder('data/locations');
+	$locationsList = (array)$locationsFolder->files();
+	$locations = array();
+	foreach  ($locationsList['data'] as $location) {
+		$fileName = urldecode($location->filename());
+		$locationName = substr($fileName, 0, -4);
+		$locations[] = $locationName;
+	}
+	if (!in_array($locationData, $locations)) {
+		f::write($locationsFolder.'/'.$locationData.'.loc', ' ', $append = false);
 	}
 
 	// write modifications to the main book file
