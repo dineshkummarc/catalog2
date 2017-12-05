@@ -44,7 +44,7 @@ With Catalog2, you can
 1. Download and unpack the `.zip` or clone this repository.
 2. Rename the top level folder to your liking (eg. `catalog2`).
 3. Upload the folder to the desired location on your web server.
-	- Make sure that your `data` folder's permissions are set to `755`.
+	- Make sure that your `data/ebooks` folder's permissions are set to `755`.
 4. Visit the folder in your browser (eg. `http://example.com/catalog2`).
 5. Provide a username, a password and your Google Books API Key (latter is optional).
 6. Click the button and you're done. Have fun.
