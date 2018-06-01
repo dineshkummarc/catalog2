@@ -1847,7 +1847,7 @@ function userModify() {
 	echo '<div class="alert alert-success" role="alert">
 	<p class="mb-0">Your modifications were successfully saved.</p>
 	</div>';
-	header("Refresh: 1;url=''");
+	header("Refresh: 1;url=");
 	exit;
 }
 
