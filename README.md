@@ -1,6 +1,6 @@
-# Catalog2
+# phpmyCatalog
 
-Catalog2 is a flat-file (DBless) PHP application to manage your home library. If you don't care about who hosts your stuff, choose LibraryThing. If you want complex, almost library-like stuff, go for OpenBiblio, Koha or Evergreen. But if you want to own your book data and you would keep it simple without all the functionalities too much for an average user, Catalog2 is for you.
+phpmyCatalog (i.e. Catalog2) is a flat-file (DBless) PHP application to manage your home library. If you don't care about who hosts your stuff, choose LibraryThing. If you want complex, almost library-like stuff, go for OpenBiblio, Koha or Evergreen. But if you want to own your book data and you would keep it simple without all the functionalities too much for an average user, Catalog2 is for you.
 
 Catalog2 is a viable solution for managing small and mid-size home libraries.
 
